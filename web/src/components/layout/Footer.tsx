@@ -10,7 +10,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start gap-3">
-            <Logo size={40} />
+            <Logo />
             <p className="text-paper/60 text-sm text-center md:text-left">
               AI and networking, built by two engineers.
             </p>
