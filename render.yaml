@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: tensortopology-api
+    runtime: node
+    plan: free
+    rootDir: api
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: node dist/server.js
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: AI_INBOX
+        value: itsahmad0175@gmail.com
+      - key: AI_RESEND_KEY
+        sync: false
+      - key: NETWORK_INBOX
+        value: najamdanialdanialmasih@gmail.com
+      - key: NETWORK_RESEND_KEY
+        sync: false
+      - key: MAIL_FROM
+        value: "TensorTopology <onboarding@resend.dev>"
