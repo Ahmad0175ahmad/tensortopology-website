@@ -1,5 +1,6 @@
 import { HeroCarousel } from '@/components/home/HeroCarousel';
 import { StatsSection } from '@/components/home/StatsSection';
+import { IndustriesSection } from '@/components/home/IndustriesSection';
 import Link from 'next/link';
 
 export default function Home() {
@@ -92,6 +93,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Industries We Serve Section */}
+      <IndustriesSection />
     </div>
   );
 }

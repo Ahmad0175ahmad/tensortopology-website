@@ -8,12 +8,12 @@ export function StatsSection() {
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
-      value: '7+',
+      value: '20+',
       label: 'Projects Delivered',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
-      value: '2+',
+      value: '1+',
       label: 'Years Experience',
       gradient: 'from-orange-500 to-red-500',
     },

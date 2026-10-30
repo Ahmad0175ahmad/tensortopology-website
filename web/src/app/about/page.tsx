@@ -73,9 +73,9 @@ export default function AboutPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white text-center">
+            <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-2xl p-12 text-white text-center shadow-2xl">
               <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
-              <p className="text-lg text-blue-100 leading-relaxed">
+              <p className="text-lg text-purple-100 leading-relaxed">
                 To deliver innovative, reliable, and scalable IT solutions that transform businesses 
                 and create lasting value. We combine deep technical expertise with a commitment to 
                 excellence, helping our clients navigate the complexities of modern technology.
@@ -157,8 +157,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {[
               { value: '10+', label: 'Team Members', gradient: 'from-blue-500 to-cyan-500' },
-              { value: '7+', label: 'Projects Delivered', gradient: 'from-purple-500 to-pink-500' },
-              { value: '2+', label: 'Years Experience', gradient: 'from-orange-500 to-red-500' },
+              { value: '20+', label: 'Projects Delivered', gradient: 'from-purple-500 to-pink-500' },
+              { value: '1+', label: 'Years Experience', gradient: 'from-orange-500 to-red-500' },
               { value: '100%', label: 'Client Satisfaction', gradient: 'from-green-500 to-emerald-500' },
             ].map((stat, index) => (
               <div key={index} className="text-center">
